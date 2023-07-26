@@ -117,9 +117,7 @@ function showQuestion(questions) {
         answerButtons.appendChild(button);
     };
 }
-function resetState() {
 
-}
 function selectAnswer(event) {
     if (event.target.dataset.correct === "true") {
         correctAnswer++;
@@ -127,6 +125,8 @@ function selectAnswer(event) {
     } else {
         incorrectAnswer++;
         chosenAnswer.textContent = "Incorrect";
+        count = count - 20;
+        // whenever you get an answer wrong, -amount of time from the current count variable.
     }
 
     while (answerButtons.hasChildNodes()) {
@@ -143,38 +143,22 @@ function finishQuiz() {
     nextQuestion.setAttribute("style", "display:none");
     score.textContent = "" + correctAnswer + "/" + questions.length;
     submitButton.addEventListener("click", saveHighScores);
-    
 };
 
 function saveHighScores() {
-
+     
     let scoreInfo = {
         username: document.getElementById("input").value,
         displayedScore: score.textContent
     };
-    function test() {
+
     localStorage.setItem("highScores", JSON.stringify(scoreInfo));
+    console.log(scoreInfo);
     window.location.assign("index2.html");
-    }
 };
-
-// WHEN I answer a question
-// THEN I am presented with another question
-// WHEN I answer a question incorrectly
-// THEN time is subtracted from the clock
-// WHEN all questions are answered or the timer reaches 0
-// THEN the game is over
-// WHEN the game is over
-// THEN I can save my initials and score
-
-
 
 
 // define special functions (events)
 // WHEN I click the start button
 generateBtn.addEventListener("click", startGame);
 
-
-
-
-// business logic

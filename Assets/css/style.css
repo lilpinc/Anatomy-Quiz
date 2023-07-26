@@ -58,12 +58,13 @@ span{
 }
 #nextquestion{
     display: none;
-    margin-left: 530px;
     margin-top: 50px;
+    margin-left: 41.5%;
     font-size: 30px;
     padding: 10px;
     background-color:antiquewhite
 }
+
 input{
     padding: 5px;
 }
@@ -81,4 +82,34 @@ input{
     padding: 5px;
     margin: 20px;
     background-color: antiquewhite;
-};
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        text-align: center;
+    }
+    h1 {
+        margin-left: 12px;
+    }
+    .btn {
+        width: 35vw;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+}
+@media screen and (max-width: 560px) {
+    body{
+        text-align: center;
+    }
+    h1 {
+        margin-left: 0 px;
+        text-align: center;
+    }
+    .btn {
+        width: 45vw;
+        margin: auto ;
+        margin-top: 20px;
+    }
+
+}
