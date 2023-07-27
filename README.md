@@ -27,7 +27,7 @@ Collaborators/Third-party:
 - https://www.youtube.com/watch?v=PBcqGxrr9g8 : helped me understand how to add the buttons and make them interactive with the user
 
 ScreenShot:
-![ScreenShot](<assets/images/Screen Shot 2023-07-27 at 3.53.33 PM>)
+![ScreenShot](<assets/images/Screen Shot 2023-07-27 at 3.58.26 PM.png>)
 
 ## License
 
