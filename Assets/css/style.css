@@ -87,6 +87,14 @@ input{
     margin: 20px;
     background-color: antiquewhite;
 }
+.fhs {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:5vw;
+   margin-left: 44%;
+   line-height: 1.5;
+}
 
 @media screen and (max-width: 800px) {
     body{
@@ -116,6 +124,7 @@ input{
     }
 
 }
+/* add queries to make it look good on all screen sizes */
 @media screen and (max-width: 560px) {
     body{
         text-align: center;

@@ -25,9 +25,12 @@ Collaborators/Third-party:
 - W3schools.com
 - stackoverflow.com
 - https://www.youtube.com/watch?v=PBcqGxrr9g8 : helped me understand how to add the buttons and make them interactive with the user
+https://www.youtube.com/watch?v=jfOv18lCMmw : helped me try to understand how to display mulitiple high scores instead of just one
+- https://www.quizcure.com/javascript/replace-comma-with-newline-regex-example#:~:text=Replace%20comma%20with%20newline%20using%20split%20%26%20join%20function,-var%20content&text=Now%20we%20have%20an%20array,elements%20to%20make%20a%20string. : helped me figure out how to split a string into different lines based off of a pattern.
+- freecodecamp.com : reviewed old javascriptlessons to use .replace.
 
 ScreenShot:
-![ScreenShot](<assets/images/Screen Shot 2023-07-27 at 3.58.26 PM.png>)
+![ScreenShot]
 
 ## License
 

@@ -2,12 +2,12 @@
 let generateBtn = document.getElementById("startquiz");
 let timer = document.getElementById("countdown");
 let count;
-let score = document.getElementById("score-text");
+let finalScore = document.getElementById("score-text");
 let correctAnswer = 0;
 let incorrectAnswer = 0;
 let nextQuestion = document.getElementById("nextquestion");
 let chosenAnswer = document.getElementById("response");
-let displayedScore;
+let score;
 let questionContainerElement = document.getElementById("question-container");
 let questionElement = document.getElementById("question");
 let explanation1 = document.getElementById("explanation");
@@ -17,7 +17,7 @@ let currentQuestionIndex = 0;
 let resultsBox = document.getElementById("resultsbox");
 let submitButton = document.getElementById("submit");
 
-
+// defining questions, answers, and correct answers
 const questions = [
     {
         question: "What is the main source of energy in the body?",
@@ -141,18 +141,23 @@ function finishQuiz() {
     questionContainerElement.setAttribute("style", "display:none");
     resultsBox.setAttribute("style", "display:block");
     nextQuestion.setAttribute("style", "display:none");
-    score.textContent = "" + correctAnswer + "/" + questions.length;
+    finalScore.textContent = "" + correctAnswer + "/" + questions.length;
     submitButton.addEventListener("click", saveHighScores);
 };
 
+// storing data to be retrieved on highscore page when name is submitted
 function saveHighScores() {
-    
+
     let scoreInfo = {
-        username: document.getElementById("input").value,
-        displayedScore: score.textContent
+        player: document.getElementById("input").value,
+        score: finalScore.textContent
     };
- 
-    localStorage.setItem("highScores", JSON.stringify(scoreInfo));
+    let currentScores = JSON.parse(localStorage.getItem("highScores")) || [] ; 
+
+        currentScores.push(scoreInfo);
+      
+
+    localStorage.setItem("highScores", JSON.stringify(currentScores));
     window.location.assign("index2.html");
 };
 
