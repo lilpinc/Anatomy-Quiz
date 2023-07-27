@@ -92,6 +92,9 @@ input{
     body{
         text-align: center;
     }
+    header {
+        margin-top: 40px;
+    }
     
     main{
         margin-left:0;
@@ -116,6 +119,9 @@ input{
 @media screen and (max-width: 560px) {
     body{
         text-align: center;
+    }
+    header {
+        margin-top: 40px;
     }
     main{
         margin-left:0;
@@ -142,4 +148,18 @@ input{
         font-size: 4vw;
     }
 
+}
+@media screen and (max-width: 480px) {
+    .btn {
+        width: 45vw;
+        margin-left:70px;
+        margin-top: 20px;
+    }
+    #startquiz, .btn {
+        font-size: 4vw;
+    }
+    #nextquestion{
+        margin-left:150px;
+        font-size: 4vw;
+    }
 }
