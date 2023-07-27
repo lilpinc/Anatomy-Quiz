@@ -146,14 +146,13 @@ function finishQuiz() {
 };
 
 function saveHighScores() {
-     
+    
     let scoreInfo = {
         username: document.getElementById("input").value,
         displayedScore: score.textContent
     };
-
+ 
     localStorage.setItem("highScores", JSON.stringify(scoreInfo));
-    console.log(scoreInfo);
     window.location.assign("index2.html");
 };
 
@@ -161,4 +160,3 @@ function saveHighScores() {
 // define special functions (events)
 // WHEN I click the start button
 generateBtn.addEventListener("click", startGame);
-

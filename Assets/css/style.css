@@ -23,16 +23,17 @@ main{
     margin: 100px 200px 0px 200px;
 }
 h1 {
-    font-size: 60px;
+    position: relative;
+    font-size: 8vw;
     margin: 40px;
 }
 h2 {
-    font-size: 25px;
+    font-size: 2vw;
     padding: 10px;
     margin: 20px;
 }
 #startquiz, .btn {
-    font-size: 30px;
+    font-size: 3vw;
     padding: 10px;
     margin: 20px;
     background-color: antiquewhite;
@@ -43,6 +44,7 @@ span{
 #question-container{
     display: none;
     font-size: 35px;
+    margin: 20px;
 }
 #answers {
     text-align: center;
@@ -50,7 +52,9 @@ span{
 }
 .btn{
     display: block;
+    position: relative;
     width: 50%;
+    font-size: 2vw;
     margin-left: 25%;
 }
 #resultsbox{
@@ -58,13 +62,13 @@ span{
 }
 #nextquestion{
     display: none;
+    position: relative;
     margin-top: 50px;
     margin-left: 41.5%;
     font-size: 30px;
     padding: 10px;
     background-color:antiquewhite
 }
-
 input{
     padding: 5px;
 }
@@ -88,13 +92,24 @@ input{
     body{
         text-align: center;
     }
-    h1 {
-        margin-left: 12px;
+    
+    main{
+        margin-left:0;
+        text-align: center;
+        width: 100vw;
+    }
+    #question-container{
+        margin: 30px;
     }
     .btn {
         width: 35vw;
-        margin: auto;
+        margin-left:200px;
         margin-top: 20px;
+        font-size: 3vw;
+    }
+    #nextquestion{
+        margin-left: 280px;
+        font-size: 3vw;
     }
 
 }
@@ -102,14 +117,29 @@ input{
     body{
         text-align: center;
     }
-    h1 {
-        margin-left: 0 px;
+    main{
+        margin-left:0;
         text-align: center;
+        width: 100vw;
+    }
+    h1 {
+        margin: 0px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 3vw;
     }
     .btn {
         width: 45vw;
-        margin: auto ;
+        margin-left:100px;
         margin-top: 20px;
+    }
+    #startquiz, .btn {
+        font-size: 4vw;
+    }
+    #nextquestion{
+        margin-left: 175px;
+        font-size: 4vw;
     }
 
 }
