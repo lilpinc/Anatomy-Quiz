@@ -13,11 +13,11 @@ This quiz was created to understand how to incorporate javascript and local stor
 
 This quiz can be used to not only test your knowledge on random anatomy and physiology questions, but also how to utulize javascript in a more reactive webiste.
 
-To utilize, open webpage. 
+To utilize, open webpage. https://lilpinc.github.io/Anatomy-Quiz/
 
 ## Credits
 
-Collaborators/Third-party:
+Collaborators/Third-party: 
 
 - Bootcamp Instructor Dan, TA's, and classmates.
 - Coding friend to help me understand how to use dataset 
@@ -27,7 +27,7 @@ Collaborators/Third-party:
 - https://www.youtube.com/watch?v=PBcqGxrr9g8 : helped me understand how to add the buttons and make them interactive with the user
 
 ScreenShot:
-![ScreenShot]()
+![ScreenShot](<assets/images/Screen Shot 2023-07-27 at 3.44.46 PM.png>)
 
 ## License
 
