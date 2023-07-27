@@ -152,14 +152,14 @@ input{
 @media screen and (max-width: 480px) {
     .btn {
         width: 45vw;
-        margin-left:70px;
+        margin-left: 70px;
         margin-top: 20px;
     }
     #startquiz, .btn {
         font-size: 4vw;
     }
     #nextquestion{
-        margin-left:150px;
+        margin-left:120px;
         font-size: 4vw;
     }
 }
