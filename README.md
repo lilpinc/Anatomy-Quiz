@@ -30,7 +30,8 @@ https://www.youtube.com/watch?v=jfOv18lCMmw : helped me try to understand how to
 - freecodecamp.com : reviewed old javascriptlessons to use .replace.
 
 ScreenShot:
-![ScreenShot]
+<img width="1247" alt="Screen Shot 2023-07-27 at 3 58 26 PM" src="https://github.com/lilpinc/Anatomy-Quiz/assets/133043171/b15ff44f-5393-4915-80fb-5c1f3b1a76dd">
+
 
 ## License
 
