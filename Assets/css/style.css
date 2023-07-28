@@ -164,6 +164,9 @@ input{
         margin-left: 70px;
         margin-top: 20px;
     }
+     h2 {
+        font-size: 4vw;
+    }
     #startquiz, .btn {
         font-size: 4vw;
     }
