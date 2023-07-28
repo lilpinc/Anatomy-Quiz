@@ -74,7 +74,7 @@ function startGame() {
     var timeInterval = setInterval(function () {
         if (count > 0) {
             timer.textContent = count;
-            count--;
+            count--; /* I wanted the count to decrease the entire time and then skip when the answer was wrong */
         } else {
             timer.textContent = 0; /*once the timer reaches 0 i want it to maintain the display of zero */
             clearInterval(timeInterval);
